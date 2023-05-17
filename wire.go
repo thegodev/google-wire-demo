@@ -9,8 +9,7 @@ import (
 	"github.com/thegodev/google-wire-demo/message"
 )
 
-// InitializeEvent creates an Event. It will error if the Event is staffed with
-// a grumpy greeter.
+// initializeApp creates an app with wire to inject all of the dependencies
 func initializeApp(phrase string) (app, error) {
 	wire.Build(provideApp, greeter.ProvideGreeter, message.ProvideMessage)
 	return app{}, nil

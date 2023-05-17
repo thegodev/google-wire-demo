@@ -1,4 +1,3 @@
-// The greeter binary simulates an event with greeters greeting guests.
 package main
 
 import (
@@ -8,12 +7,12 @@ import (
 	"github.com/thegodev/google-wire-demo/greeter"
 )
 
-// newApp creates a new app - initialising all the dependencies
+// provideApp returns a new app with all of the dependencies
 func provideApp(g greeter.Greeter) (app, error) {
 	return app{Greeter: g}, nil
 }
 
-// here is a struct for your app with all the dependencies
+// app is the struct for your app with all the dependencies
 type app struct {
 	Greeter greeter.Greeter
 }

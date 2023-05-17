@@ -9,7 +9,7 @@ func ProvideGreeter(m message.Message) Greeter {
 	return Greeter{Message: m}
 }
 
-// Greeter is the type charged with greeting guests
+// Greeter is the type for greeting guests
 type Greeter struct {
 	Message message.Message
 }

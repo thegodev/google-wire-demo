@@ -12,8 +12,7 @@ import (
 
 // Injectors from wire.go:
 
-// InitializeEvent creates an Event. It will error if the Event is staffed with
-// a grumpy greeter.
+// initializeApp creates an app with wire to inject all of the dependencies
 func initializeApp(phrase string) (app, error) {
 	messageMessage := message.ProvideMessage(phrase)
 	greeterGreeter := greeter.ProvideGreeter(messageMessage)
