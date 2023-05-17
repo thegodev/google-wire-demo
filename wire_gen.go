@@ -6,8 +6,8 @@
 package main
 
 import (
-	"github.com/camerontrew/DI-Test/greeter"
-	"github.com/camerontrew/DI-Test/message"
+	"github.com/thegodev/google-wire-demo/greeter"
+	"github.com/thegodev/google-wire-demo/message"
 )
 
 // Injectors from wire.go:

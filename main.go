@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/camerontrew/DI-Test/greeter"
+	"github.com/thegodev/google-wire-demo/greeter"
 )
 
 // newApp creates a new app - initialising all the dependencies

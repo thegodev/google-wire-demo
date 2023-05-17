@@ -1,4 +1,4 @@
-module github.com/camerontrew/DI-Test
+module github.com/thegodev/google-wire-demo
 
 go 1.16
 

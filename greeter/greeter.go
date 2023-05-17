@@ -1,7 +1,7 @@
 package greeter
 
 import (
-	"github.com/camerontrew/DI-Test/message"
+	"github.com/thegodev/google-wire-demo/message"
 )
 
 // ProvideGreeter initializes a Greeter
